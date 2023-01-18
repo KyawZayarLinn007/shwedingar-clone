@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply sm:w-full lg:w-11/12
+}
+
+.menu-item {
+    @apply p-2 border-2 border-orange-400 drop-shadow-2xl rounded-xl bg-white cursor-pointer
+}
+
+.menu-content {
+    @apply flex justify-around items-center gap-x-0
+}
+
+.menu-content-icon {
+    @apply text-4xl text-orange-400
+}
+
+.section-title {
+    @apply text-2xl text-orange-400 font-semibold
+}
+
+.menu-tab {
+    @apply px-12 py-2 sm:px-20 md:px-32 xl:px-56 xl:py-4 cursor-pointer
+}
+
+.footer {
+    @apply bg-footer p-12 text-white
+}
+
+.footer-heading {
+    @apply text-2xl text-orange-400 border-b-2 pb-2 border-orange-400
+}
+
+.footer-page-link {
+    @apply hover:text-orange-400 border-b-2 border-white
+}
+
+.footer-main-link {
+    @apply hover:underline border-b-2 border-white
+}
+
+.footer-popular-link {
+    @apply hover:text-orange-400
+}
+
+.exchange-tab-1 {
+    @apply text-lg col-span-2 bg-green-300 rounded-tl-md rounded-bl-md p-2 text-start
+}
+
+.exchange-tab-2 {
+    @apply text-lg font-semibold border-2 border-green-300 rounded-tr-md rounded-br-md p-2
+}
